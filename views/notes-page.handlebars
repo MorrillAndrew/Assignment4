@@ -1,0 +1,32 @@
+
+
+
+
+{{> header}}
+
+<main>
+	{{#each note}}
+		{{> todo fantastic = this.body}}
+	{{/each}}
+</main>
+
+{{> footer}}
+
+{{> add-note-modal}}
+
+
+
+
+
+
+
+
+
+
+
+{{!--
+
+  You should modify this template so that any existing notes for a user are
+  displayed when this page is rendered.
+
+  --}}
